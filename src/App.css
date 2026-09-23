@@ -1,0 +1,49 @@
+main {
+  width: min(520px, 100% - 40px);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+}
+
+form input {
+  flex: 1;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.done {
+  color: gray;
+  text-decoration: line-through;
+}
